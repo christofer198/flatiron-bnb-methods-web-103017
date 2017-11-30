@@ -8,14 +8,14 @@ class City < ActiveRecord::Base
     #outputs those listing
     binding.pry
     openings = Hash.new(0)
-    self.listings.each do |listings|
-      listings.reservations.each do |reservation|
+    self.listings.each do |listing|
+      listing.reservations.each do |reservation|
         checkin = reservation.checkin
         checkout = reservation.checkout
-        openings[reservation] += 1
+        openings[listing] += 1
         #binding.pry
         if [datein.to_date, checkin].max > [dateout.to_date, checkout].min
-          
+
         end
       end
     end
