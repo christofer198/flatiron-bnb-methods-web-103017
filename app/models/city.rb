@@ -12,7 +12,7 @@ class City < ActiveRecord::Base
         checkin = reservation.checkin
         checkout = reservation.checkout
         if max(datein, checkin) < min(dateout, checkout)
-          puts "test"
+          
         end
       end
 
