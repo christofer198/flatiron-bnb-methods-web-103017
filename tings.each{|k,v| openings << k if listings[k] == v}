@@ -1,34 +1,34 @@
-=> [[32m#<Listing:0x00000005b0d2b8[0m
+=> [[32m#<Listing:0x00000006522d48[0m
   id: [1;34m1[0m,
   address: [31m[1;31m"[0m[31m123 Main Street[1;31m"[0m[31m[0m,
   listing_type: [31m[1;31m"[0m[31mprivate room[1;31m"[0m[31m[0m,
   title: [31m[1;31m"[0m[31mBeautiful Apartment on Main Street[1;31m"[0m[31m[0m,
   description:
    [31m[1;31m"[0m[31mMy apartment is great. there's a bedroom. close to subway....blah blah[1;31m"[0m[31m[0m,
-  price: [32m#<BigDecimal:5ebc968,'0.5E2',9(27)>[0m,
+  price: [32m#<BigDecimal:6587360,'0.5E2',9(27)>[0m,
   neighborhood_id: [1;34m1[0m,
   host_id: [1;34m1[0m,
-  created_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m16[0m:[1;34m31[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
-  updated_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m16[0m:[1;34m31[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
- [32m#<Listing:0x00000005b0d150[0m
+  created_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m55[0m:[1;34m32[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m55[0m:[1;34m32[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Listing:0x00000006522be0[0m
   id: [1;34m2[0m,
   address: [31m[1;31m"[0m[31m6 Maple Street[1;31m"[0m[31m[0m,
   listing_type: [31m[1;31m"[0m[31mshared room[1;31m"[0m[31m[0m,
   title: [31m[1;31m"[0m[31mShared room in apartment[1;31m"[0m[31m[0m,
   description: [31m[1;31m"[0m[31mshared a room with me because I'm poor[1;31m"[0m[31m[0m,
-  price: [32m#<BigDecimal:5f03ca0,'0.15E2',9(27)>[0m,
+  price: [32m#<BigDecimal:65b8190,'0.15E2',9(27)>[0m,
   neighborhood_id: [1;34m1[0m,
   host_id: [1;34m2[0m,
-  created_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m16[0m:[1;34m31[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
-  updated_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m16[0m:[1;34m31[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
- [32m#<Listing:0x00000005b0cfe8[0m
+  created_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m55[0m:[1;34m32[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m55[0m:[1;34m32[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Listing:0x00000006522a78[0m
   id: [1;34m3[0m,
   address: [31m[1;31m"[0m[31m44 Ridge Lane[1;31m"[0m[31m[0m,
   listing_type: [31m[1;31m"[0m[31mwhole house[1;31m"[0m[31m[0m,
   title: [31m[1;31m"[0m[31mBeautiful Home on Mountain[1;31m"[0m[31m[0m,
   description: [31m[1;31m"[0m[31mWhole house for rent on mountain. Many bedrooms.[1;31m"[0m[31m[0m,
-  price: [32m#<BigDecimal:5f3f4d0,'0.2E3',9(27)>[0m,
+  price: [32m#<BigDecimal:6601ae8,'0.2E3',9(27)>[0m,
   neighborhood_id: [1;34m3[0m,
   host_id: [1;34m3[0m,
-  created_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m16[0m:[1;34m31[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
-  updated_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m16[0m:[1;34m31[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]
+  created_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m55[0m:[1;34m32[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mThu[0m, [1;34m30[0m [1;34;4mNov[0m [1;34m2017[0m [1;34m21[0m:[1;34m55[0m:[1;34m32[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]
