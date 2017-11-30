@@ -1,11 +1,6 @@
 class City < ActiveRecord::Base
   has_many :neighborhoods
   has_many :listings, :through => :neighborhoods
-  has_many :reservations, :through => :listings
-
-  def city_openings(checkin, checkout)
-    self.listings
-  end
 
   # def city_openings(datein, dateout)
   #   #takes a date range
