@@ -10,7 +10,7 @@ class City < ActiveRecord::Base
     openings = Hash.new(0)
     self.listings.each do |listing|
       listing.reservations.each do |reservation|
-        binding.pry
+        #binding.pry
         checkin = reservation.checkin
         checkout = reservation.checkout
 
