@@ -10,6 +10,7 @@ class City < ActiveRecord::Base
     all_listings = Hash.new(0)
     listings = Hash.new(0)
     openings = []
+    binding.pry
     self.listings.each do |listing|
       listing.reservations.each do |reservation|
         openings << listing
