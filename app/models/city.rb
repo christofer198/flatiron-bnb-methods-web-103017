@@ -41,18 +41,18 @@ class City < ActiveRecord::Base
 
   def self.most_res
     ratio = {}
-  
+
     self.all.each do |city|
       reservations = 0
       city.listings.each do |listing|
         reservations += listing.reservations.count
       end
       ratio[city] = (reservations)
-  
+
     end
-  
+
     ratio.max_by{|k,v| v}[0]
-  
-    end
+
   end
+
 end
