@@ -24,6 +24,8 @@ class City < ActiveRecord::Base
   #
   # end
 
-  
+  def self.highest_ratio_res_to_listings
+    binding.pry
+  end
 
 end
