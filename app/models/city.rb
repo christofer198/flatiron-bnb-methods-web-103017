@@ -9,7 +9,9 @@ class City < ActiveRecord::Base
     openings = []
     self.listings.each do |listings|
       listings.reservations.each do |x|
-        puts x
+        x.checkin
+      end
+
       end
       # checkin = listing.checkin
       # checkout = listing.checkout
