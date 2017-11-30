@@ -17,7 +17,6 @@ class City < ActiveRecord::Base
       listings[listing] = 0
       if listing != []
         listing.reservations.each do |reservation|
-          openings << listing
           #binding.pry
           checkin = reservation.checkin
           checkout = reservation.checkout
