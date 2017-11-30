@@ -12,7 +12,8 @@ class City < ActiveRecord::Base
     openings = []
 
     self.listings.each do |listing|
-      all_listings[listing] = 0 if listing == [] 
+      binding.pry
+      all_listings[listing] = 0 if listing == []
       listing.reservations.each do |reservation|
         openings << listing
         #binding.pry
@@ -24,6 +25,7 @@ class City < ActiveRecord::Base
         end
       end
     end
+
     all_listings.each{|k,v| openings << k if listings[k] == v}
 
     openings
