@@ -18,7 +18,7 @@ class City < ActiveRecord::Base
         #binding.pry
         checkin = reservation.checkin
         checkout = reservation.checkout
-        #all_listings[listing] += 1
+        all_listings[listing] += 1
         if [datein.to_date, checkin].max > [dateout.to_date, checkout].min
           listings[listing] += 1
         end
