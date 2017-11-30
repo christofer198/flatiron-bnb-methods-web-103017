@@ -7,8 +7,10 @@ class City < ActiveRecord::Base
     #finds listing within that range
     #outputs those listing
     openings = []
+
+    binding.pry
     self.listings.each do |listings|
-      binding.pry
+
       listings.reservations.each do |reservation|
         checkin = reservation.checkin
         checkout = reservation.checkout
@@ -17,9 +19,9 @@ class City < ActiveRecord::Base
           openings << listings
         end
       end
-  
+
       openings
-  
+
     end
   end
 
