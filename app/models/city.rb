@@ -11,7 +11,7 @@ class City < ActiveRecord::Base
       listings.reservations.each do |reservation|
         checkin = reservation.checkin
         checkout = reservation.checkout
-        if [datein.to_date, checkin].max < [dateout.to_date, checkout].min == true
+        if [datein.to_date, checkin].max < [dateout.to_date, checkout].min == false
           openings << listings
         end
       end
