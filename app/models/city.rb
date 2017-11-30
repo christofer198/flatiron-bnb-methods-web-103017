@@ -12,14 +12,14 @@ class City < ActiveRecord::Base
         puts x.checkin
       end
 
-      end
+    end
       # checkin = listing.checkin
       # checkout = listing.checkout
       # if max(datein, checkin) < min(dateout, checkout)
       #   openings << listing
       # end
 
-    end
+  end
     #     checkin = listing.checkin
     #     checkout = listing.checkout
     #     if max(datein, checkin) < min(dateout, checkout)
@@ -28,6 +28,6 @@ class City < ActiveRecord::Base
     #   end
     # end
 
-  end
+
 
 end
