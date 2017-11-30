@@ -33,9 +33,8 @@ class City < ActiveRecord::Base
       city.listings.each do |listing|
         reservations += listing.reservations.count
       end
-      if (reservations/listings) > ratio.values.flatten
-        ratio[:city] = (reservations/listings)
-      end
+      ratio[city] = (reservations/listings)
+    
     end
 
 
