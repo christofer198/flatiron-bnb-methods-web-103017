@@ -55,6 +55,6 @@ class City < ActiveRecord::Base
 
     ratio.max_by{|k,v| v}[0]
 
-    end  
+    end
   end
 end
