@@ -40,4 +40,8 @@ class City < ActiveRecord::Base
     ratio.max_by{|k,v| v}[0]
 
   end
+
+  def self.most_res
+    binding.pry
+  end
 end
