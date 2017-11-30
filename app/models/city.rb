@@ -19,11 +19,7 @@ class City < ActiveRecord::Base
       openings
 
     end
-      # checkin = listing.checkin
-      # checkout = listing.checkout
-      # if max(datein, checkin) < min(dateout, checkout)
-      #   openings << listing
-      # end
+    
 
   end
     #     checkin = listing.checkin
