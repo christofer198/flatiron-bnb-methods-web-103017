@@ -8,7 +8,7 @@ class City < ActiveRecord::Base
     #outputs those listing
     openings = []
     self.listings.each do |listings|
-      listings.description
+      puts listings.description
       # checkin = listing.checkin
       # checkout = listing.checkout
       # if max(datein, checkin) < min(dateout, checkout)
