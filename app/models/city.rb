@@ -24,7 +24,7 @@ class City < ActiveRecord::Base
         end
       end
     end
-    #all_listings.each{|k,v| openings << k if listings[k] == v}
+    all_listings.each{|k,v| openings << k if listings[k] == v}
 
     openings
 
