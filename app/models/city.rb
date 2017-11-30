@@ -13,7 +13,7 @@ class City < ActiveRecord::Base
 
     self.listings.each do |listing|
 
-      all_listings[listing] = 0
+      all_listings[listing] = 0 if listing = []
       if listing != []
         listing.reservations.each do |reservation|
           openings << listing
