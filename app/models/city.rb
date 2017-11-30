@@ -33,8 +33,8 @@ class City < ActiveRecord::Base
       city.listings.each do |listing|
         reservations += listing.reservations.count
       end
-      ratio[city] = (reservations/listings)
-    
+      ratio[city.name] = (reservations.to_f/listings.to_f)
+
     end
 
 
