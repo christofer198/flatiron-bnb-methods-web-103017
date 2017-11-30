@@ -16,6 +16,8 @@ class City < ActiveRecord::Base
         end
       end
 
+      openings
+
     end
       # checkin = listing.checkin
       # checkout = listing.checkout
