@@ -25,7 +25,7 @@ class City < ActiveRecord::Base
     all_listings.each{|k,v| openings << k if listings[k] == v}
 
     openings
-    
+
   end
 
   def self.highest_ratio_res_to_listings
