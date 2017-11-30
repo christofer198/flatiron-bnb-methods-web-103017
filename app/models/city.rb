@@ -8,7 +8,7 @@ class City < ActiveRecord::Base
     #outputs those listing
     openings = []
     self.listings.each do |listings|
-      puts listings
+      puts listings.id
       break
       # checkin = listing.checkin
       # checkout = listing.checkout
