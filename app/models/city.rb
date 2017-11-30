@@ -8,8 +8,9 @@ class City < ActiveRecord::Base
     #outputs those listing
     openings = []
     self.listings.each do |listings|
-      byebug
-      puts listings
+      listings.each do |x|
+        puts x
+      end
     end
     #     checkin = listing.checkin
     #     checkout = listing.checkout
