@@ -13,16 +13,17 @@ class City < ActiveRecord::Base
 
     self.listings.each do |listing|
       binding.pry
-      all_listings[listing] = 0 if listing == []
-      listing.reservations.each do |reservation|
-        openings << listing
-        #binding.pry
-        checkin = reservation.checkin
-        checkout = reservation.checkout
-        all_listings[listing] += 1
-        if [datein.to_date, checkin].max > [dateout.to_date, checkout].min
-          listings[listing] += 1
-        end
+      all_listings[listing] = 0 
+        listing.reservations.each do |reservation| 
+          openings << listing
+          #binding.pry
+          checkin = reservation.checkin
+          checkout = reservation.checkout
+          all_listings[listing] += 1
+          if [datein.to_date, checkin].max > [dateout.to_date, checkout].min
+            listings[listing] += 1
+          end
+        
       end
     end
 
