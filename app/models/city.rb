@@ -12,7 +12,7 @@ class City < ActiveRecord::Base
     openings = []
 
     self.listings.each do |listing|
-      binding.pry
+      all_listings[listing] += 1
       listing.reservations.each do |reservation|
         openings << listing
         #binding.pry
