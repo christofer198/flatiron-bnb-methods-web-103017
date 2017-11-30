@@ -6,14 +6,14 @@ class City < ActiveRecord::Base
     #takes a date range
     #finds listing within that range
     #outputs those listing
-    #binding.pry
+    binding.pry
     all_listings = Hash.new(0)
     listings = Hash.new(0)
     openings = []
 
     self.listings.each do |listing|
 
-      all_listings[listing] = 0 if listing = []
+      all_listings[listing] = 0 if listing == []
       if listing != []
         listing.reservations.each do |reservation|
           openings << listing
