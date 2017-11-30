@@ -21,9 +21,9 @@ class City < ActiveRecord::Base
   #         openings << listings
   #       end
   #     end
-  # 
+  #
   #     openings
-  # 
+  #
   #   end
   # end
 
